@@ -1,10 +1,27 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
 
-export default function Home() {
+import CssBaseline from "@mui/material/CssBaseline";
+import Container from "@mui/material/Container";
+import AppTheme from "@/theme/AppTheme";
+import Projects from "@/components/Projects";
+import Career from "@/components/Career";
+import Title from "@/components/Title";
+import Skills from "@/components/Skills";
+
+export default function Blog(props: { disableCustomTheme?: boolean }) {
   return (
-    <main>
-      <h1>Bonwook's Portfolio</h1>
-    </main>
+    <AppTheme {...props}>
+      <CssBaseline enableColorScheme />
+      <Container
+        maxWidth="md"
+        component="main"
+        sx={{ display: "flex", flexDirection: "column", my: 12, gap: 8 }}
+      >
+        <Title />
+        <Projects />
+        <Career />
+        <Skills />
+      </Container>
+    </AppTheme>
   );
 }
