@@ -23,7 +23,7 @@ const StyledCard = styled(Card)(({ theme }) => ({
   flexDirection: "column",
   padding: 0,
   height: "100%",
-
+  gap: 0,
   "&:hover": {
     backgroundColor: (theme.vars || theme).palette.background.paper,
   },
@@ -45,7 +45,7 @@ const StyledCardContent = styled(CardContent)({
 const StyledTypography = styled(Typography)({
   display: "-webkit-box",
   WebkitBoxOrient: "vertical",
-  WebkitLineClamp: 3,
+  WebkitLineClamp: 5,
   overflow: "hidden",
   textOverflow: "ellipsis",
 });

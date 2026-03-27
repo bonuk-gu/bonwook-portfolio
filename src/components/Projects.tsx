@@ -43,7 +43,7 @@ export default function Projects() {
     <Box sx={{ display: "flex", flexDirection: "column" }}>
       <Box mb={2}>
         <Typography variant="h3" gutterBottom>
-          Projects
+          Main Projects
         </Typography>
       </Box>
       <Grid container spacing={2} columns={12} alignItems="flex-start">

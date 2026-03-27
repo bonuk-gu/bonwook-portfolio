@@ -4,7 +4,7 @@ import SkillCard from "./SkillCard";
 const skillData = [
   {
     title: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "MUI"],
+    items: ["React", "Next.js", "MUI", "ReactNative"],
   },
   {
     title: "Backend",
@@ -14,13 +14,14 @@ const skillData = [
     title: "Infra",
     items: ["AWS", "Docker", "Linux", "Nginx"],
   },
+
+  {
+    title: "Others",
+    items: ["Python", "FFmpeg", "WebSocket"],
+  },
   {
     title: "Tools",
     items: ["Git", "Github", "Jira"],
-  },
-  {
-    title: "Others",
-    items: ["Python", "FFmpeg"],
   },
 ];
 
