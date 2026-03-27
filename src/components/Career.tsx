@@ -9,7 +9,7 @@ const articleInfo = [
     tag: "Full-stack developer / CEO",
     title: "(주)패턴테크",
     description:
-      "스타트업 초기 멤버로 합류하여 웹 서비스 개발 및 R&D 과제 수행을 담당했습니다. 이후 대표 역할을 맡게 되어 팀원 교육, 기술 의사 결정 등 조직 운영을 수행했습니다.",
+      "스타트업 초기 멤버로 합류해 웹 서비스 설계 및 개발을 담당했으며, 이후 대표 역할을 맡아 조직 운영을 수행했습니다. 서비스 아키텍처 설계, 주요 기능 개발, AWS 인프라 구축 및 운영 등 기술 전반에 참여하며 여러 웹 서비스를 기획부터 개발, 배포, 운영까지 직접 진행했습니다. 또한 정부 R&D 과제의 참여연구자/연구책임자로 참여하여 AI 및 웹 기반 시스템 개발을 수행하고, 사업 수행 전반을 총괄했습니다.",
     projects: [
       {
         type: "Project",
@@ -65,7 +65,7 @@ const articleInfo = [
 const StyledTypography = styled(Typography)({
   display: "-webkit-box",
   WebkitBoxOrient: "vertical",
-  WebkitLineClamp: 2,
+
   overflow: "hidden",
   textOverflow: "ellipsis",
 });
