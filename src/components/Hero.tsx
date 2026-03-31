@@ -75,7 +75,7 @@ export default function Hero() {
           letterSpacing: "-0.02em",
         }}
       >
-        구본욱 (Bonwook Koo)
+        구본욱 (Koo Bonwook)
       </Typography>
       <Card variant="outlined" sx={{ mt: 4 }}>
         <Stack spacing={3}>
@@ -107,16 +107,14 @@ export default function Hero() {
               wordBreak: "keep-all",
             }}
           >
-            스타트업 초기 멤버로 참여해 서비스 설계부터 개발, 배포, 운영까지 전
-            과정을 수행해온 풀스택 개발자입니다.
+            스타트업 초기 멤버로 합류해 고객미팅, 요구사항 정의, 서비스
+            설계-개발-배포-운영까지 전 과정을 수행해 온 풀스택 개발자입니다.
             <br />
-            React / Next.js와 Node.js / Nest.js를 중심으로 5년 이상 서비스
-            개발을 진행하며 요구사항 정의, 아키텍처 설계, 인터랙티브 UI 구현,
-            API 개발, AWS 기반 인프라 구축 및 운영까지 전체 개발 사이클을 직접
-            경험했습니다.
-            <br />매 프로젝트마다 주어진 환경에서 스스로 문제를 정의하고
-            해결해왔으며, 빠른 개발이 요구되는 환경에서도 구조적인 설계를
-            바탕으로 복잡한 기능을 안정적으로 구현하는 것을 강점으로 합니다.
+            React / Next.js와 Node.js / Nest.js를 중심으로 복잡한 인터랙티브
+            UI와 서비스 구조를 설계하고 구현해왔습니다.
+            <br />
+            빠른 개발이 요구되는 환경에서도 구조적인 설계를 통해 복잡한 기능을
+            안정적으로 구현하는 것을 강점으로 합니다.
           </Typography>
 
           <Divider />
@@ -129,13 +127,9 @@ export default function Hero() {
           >
             <Stack direction="row" spacing={1} alignItems="center">
               <MailOutlineIcon fontSize="small" />
-              <Link
-                href="mailto:bigticket215@gmail.com"
-                underline="hover"
-                color="inherit"
-              >
+              <Typography variant="body2" color="text.secondary">
                 bigticket215@gmail.com
-              </Link>
+              </Typography>
             </Stack>
 
             <Stack direction="row" spacing={1} alignItems="center">

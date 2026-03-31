@@ -15,21 +15,13 @@ export default function KStorage() {
         <li>웹 UI, 백엔드 서버, 데이터베이스 구조 설계 및 구현</li>
         <li>AWS 기반 서버 환경 구성 및 배포/운영 관리</li>
       </ul>
-      <span>기술 스택</span>
-      <ul>
-        <li>Frontend: React, Next.js</li>
-        <li>Backend: Node.js, Nest.js</li>
-        <li>Database: MySQL</li>
-        <li>Infra: AWS(EC2, S3), pm2</li>
-        <li>Others: Websocket</li>
-      </ul>
       <span>주요 구현 내용</span>
       <ul>
         <li>AWS S3 기반 파일 저장 구조를 사용하는 웹 스토리지 서비스 구현</li>
         <li>
           파일/폴더 생성, 이동, 삭제, 복원 기능을 포함한 파일 관리 시스템 구현
         </li>
-        <li>사용자 그룹 기반 파일 공유 기능 및 권한 관리 기능 구현</li>
+        <li>사용자 그룹 기반 파일 공유 및 알림 기능 구현</li>
         <li>파일 탐색 UI 및 경로 기반 탐색 구조 구현</li>
         <li>파일 메타데이터 관리 및 DB 연동 구조 설계</li>
         <li>문서 파일 텍스트 추출 및 요약 기능 구현</li>
@@ -61,6 +53,14 @@ export default function KStorage() {
         <li>
           문서 파일(txt, doc, pdf) 텍스트 추출 및 AI API 기반 요약 기능 구현
         </li>
+      </ul>
+      <span>기술 스택</span>
+      <ul>
+        <li>Frontend: React, Next.js</li>
+        <li>Backend: Node.js, Nest.js</li>
+        <li>Database: MySQL</li>
+        <li>Infra: AWS(EC2, S3), pm2</li>
+        <li>Others: Websocket</li>
       </ul>
     </div>
   );

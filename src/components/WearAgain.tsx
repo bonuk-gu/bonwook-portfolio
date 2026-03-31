@@ -10,14 +10,7 @@ export default function WearAgain() {
         <li>일부 웹 & 모바일 기능 및 API 개발</li>
         <li>AWS EC2 기반 서버 및 데이터베이스 환경 구성 참여</li>
       </ul>
-      <span>기술 스택</span>
-      <ul>
-        <li>Frontend: React, Next.js, React Native(Expo)</li>
-        <li>Backend: Nest.js</li>
-        <li>Database: MySQL, TypeORM</li>
-        <li>Infra: AWS EC2, pm2</li>
-        <li>Others: Docker</li>
-      </ul>
+
       <span>주요 구현 내용</span>
       <ul>
         <li>의류 교환 행사 운영을 위한 Web / Mobile 통합 플랫폼 개발</li>
@@ -46,6 +39,14 @@ export default function WearAgain() {
           Web / Mobile / Backend 간 공통 데이터 구조를 정의하여 API 변경 시
           발생하는 오류를 줄이고 개발 효율을 개선함
         </li>
+      </ul>
+      <span>기술 스택</span>
+      <ul>
+        <li>Frontend: React, Next.js, React Native(Expo)</li>
+        <li>Backend: Nest.js</li>
+        <li>Database: MySQL, TypeORM</li>
+        <li>Infra: AWS EC2, pm2</li>
+        <li>Others: Docker</li>
       </ul>
     </div>
   );
