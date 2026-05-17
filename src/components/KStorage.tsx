@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function KStorage() {
   return (
     <div>
-      <p>
+      {/* <p>
         <Link href={"https://kstorage-demo.vercel.app/"} target="_blank">
           [KStorage 데모 바로가기]
         </Link>{" "}
         ID: admin@test.co.kr / PW: test12!@
-      </p>
+      </p> */}
       <span>담당 역할</span>
       <ul>
         <li>서비스 전체 구조 설계 및 Full-stack 개발(단독 개발)</li>
